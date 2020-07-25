@@ -4,6 +4,7 @@ variable "parameters_string" {
     name = string
     value = string
   }))
+  default = []
 }
 
 variable "parameters_secure_string" {
@@ -12,4 +13,5 @@ variable "parameters_secure_string" {
     name = string
     value = string
   }))
+  default = []
 }
